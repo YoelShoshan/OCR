@@ -1,0 +1,27 @@
+
+CC=g++
+#CFLAGS=-c -Wall -I
+CFLAGS=-I -c -Wall 
+
+OBJECTS = BoxFindWords.o
+
+VPATH = ../BoxFindWords/
+
+#this is how you define a pattern
+%.o : %.cpp
+	$(CC) -c -O3 $< -o $@
+
+%.o : %.c
+	$(CC) -c -O3 $< -o $@
+
+all: BoxFindWords
+
+BoxFindWords: $(OBJECTS) libBoxLib.a
+	$(CC) -O3 -o BoxFindWords $(OBJECTS) -L. -lBoxLib 
+	#ar rcs libBoxLib.a $(OBJECTS)
+
+BoxFindWords.o: BoxFindWords.cpp 
+
+clean:
+	rm -rf *o BoxFindWords
+

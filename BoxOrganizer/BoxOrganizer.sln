@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BoxOrganizer", "BoxOrganizer\BoxOrganizer.vcxproj", "{4CD8038C-52F3-4ED1-9C52-B95292FC7BBB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{77CB7BC3-7676-4AB5-9D44-B691E8A1FBCA} = {77CB7BC3-7676-4AB5-9D44-B691E8A1FBCA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BoxMerger", "BoxMerger\BoxMerger.vcxproj", "{498BA569-BA1A-45D5-B6A4-D613E548D3EC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{77CB7BC3-7676-4AB5-9D44-B691E8A1FBCA} = {77CB7BC3-7676-4AB5-9D44-B691E8A1FBCA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BoxLib", "BoxLib\BoxLib.vcxproj", "{77CB7BC3-7676-4AB5-9D44-B691E8A1FBCA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BoxFindWords", "BoxFindWords\BoxFindWords.vcxproj", "{FAF1602C-A46F-4319-9422-00B23C43D478}"
+	ProjectSection(ProjectDependencies) = postProject
+		{77CB7BC3-7676-4AB5-9D44-B691E8A1FBCA} = {77CB7BC3-7676-4AB5-9D44-B691E8A1FBCA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CD8038C-52F3-4ED1-9C52-B95292FC7BBB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4CD8038C-52F3-4ED1-9C52-B95292FC7BBB}.Debug|Win32.Build.0 = Debug|Win32
+		{4CD8038C-52F3-4ED1-9C52-B95292FC7BBB}.Release|Win32.ActiveCfg = Release|Win32
+		{4CD8038C-52F3-4ED1-9C52-B95292FC7BBB}.Release|Win32.Build.0 = Release|Win32
+		{498BA569-BA1A-45D5-B6A4-D613E548D3EC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{498BA569-BA1A-45D5-B6A4-D613E548D3EC}.Debug|Win32.Build.0 = Debug|Win32
+		{498BA569-BA1A-45D5-B6A4-D613E548D3EC}.Release|Win32.ActiveCfg = Release|Win32
+		{498BA569-BA1A-45D5-B6A4-D613E548D3EC}.Release|Win32.Build.0 = Release|Win32
+		{77CB7BC3-7676-4AB5-9D44-B691E8A1FBCA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{77CB7BC3-7676-4AB5-9D44-B691E8A1FBCA}.Debug|Win32.Build.0 = Debug|Win32
+		{77CB7BC3-7676-4AB5-9D44-B691E8A1FBCA}.Release|Win32.ActiveCfg = Release|Win32
+		{77CB7BC3-7676-4AB5-9D44-B691E8A1FBCA}.Release|Win32.Build.0 = Release|Win32
+		{FAF1602C-A46F-4319-9422-00B23C43D478}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FAF1602C-A46F-4319-9422-00B23C43D478}.Debug|Win32.Build.0 = Debug|Win32
+		{FAF1602C-A46F-4319-9422-00B23C43D478}.Debug|Win32.Deploy.0 = Debug|Win32
+		{FAF1602C-A46F-4319-9422-00B23C43D478}.Release|Win32.ActiveCfg = Release|Win32
+		{FAF1602C-A46F-4319-9422-00B23C43D478}.Release|Win32.Build.0 = Release|Win32
+		{FAF1602C-A46F-4319-9422-00B23C43D478}.Release|Win32.Deploy.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

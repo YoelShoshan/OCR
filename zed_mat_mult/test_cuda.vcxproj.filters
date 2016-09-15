@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu" />
+    <CudaCompile Include="zed_mat_kernel.cu">
+      <Filter>Matrix\Cuda\zed_mat_kernel</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="defines.h" />
+    <ClInclude Include="zed_mat_mult.h">
+      <Filter>zed_mat_mult</Filter>
+    </ClInclude>
+    <ClInclude Include="zed_mat_kernel.h">
+      <Filter>Matrix\Cuda\zed_mat_kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="EigenMatMult.h">
+      <Filter>eigen_mat_mult</Filter>
+    </ClInclude>
+    <ClInclude Include="ZedMatPool.h">
+      <Filter>Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="zedMatAllocatorBase.h">
+      <Filter>Matrix Allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="zedMatrixBase.h">
+      <Filter>Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="zedMatrix_Cuda.h">
+      <Filter>Matrix\Cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="RefPointer.h">
+      <Filter>Reference Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="zedMatAllocator_Host.h">
+      <Filter>Matrix Allocator\Cuda\Host</Filter>
+    </ClInclude>
+    <ClInclude Include="ZedMat.h" />
+    <ClInclude Include="zedMatrix_Cpu.h">
+      <Filter>Matrix\CPU - Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="zedMatAllocator_Cuda.h">
+      <Filter>Matrix Allocator\Cuda\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="zedMatAllocator_Eigen.h">
+      <Filter>Matrix Allocator\Eigen</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ZedMatPool.cpp">
+      <Filter>Pool</Filter>
+    </ClCompile>
+    <ClCompile Include="zedMatrix_Cuda.cpp">
+      <Filter>Matrix\Cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="RefPointer.cpp">
+      <Filter>Reference Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="zedMatAllocator_Host.cpp">
+      <Filter>Matrix Allocator\Cuda\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="ZedMat.cpp" />
+    <ClCompile Include="zedMatrix_Cpu.cpp">
+      <Filter>Matrix\CPU - Eigen</Filter>
+    </ClCompile>
+    <ClCompile Include="zedMatAllocator_Cuda.cpp">
+      <Filter>Matrix Allocator\Cuda\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="zedMatAllocator_Eigen.cpp">
+      <Filter>Matrix Allocator\Eigen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="zed_mat_mult">
+      <UniqueIdentifier>{d76d4cff-76fc-4f19-bbb0-90695940f04d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="eigen_mat_mult">
+      <UniqueIdentifier>{ccdeb055-b390-4460-940d-ce16974c1afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pool">
+      <UniqueIdentifier>{68a82609-e5da-4e14-83bf-96a5026d6b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Matrix Allocator">
+      <UniqueIdentifier>{3bb015cf-ffbd-42d5-ac8b-aeeeeaabe23f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Matrix Allocator\Cuda">
+      <UniqueIdentifier>{8ffd4b57-f7a9-4465-afac-1d8b0465cf5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Matrix">
+      <UniqueIdentifier>{46572ffb-4a32-4e18-a217-20cfb5f2315a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Matrix\Cuda">
+      <UniqueIdentifier>{22b957ec-82f5-4c15-aa8b-edf7db4b17b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reference Pointer">
+      <UniqueIdentifier>{66644d3a-30fb-4de0-9fda-2d8f64b9c033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Matrix\CPU - Eigen">
+      <UniqueIdentifier>{7d4bd24d-2338-4c53-81d8-7ccded14df9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Matrix Allocator\Cuda\Device">
+      <UniqueIdentifier>{6567ecea-8b41-49fc-9e79-cc22095a88cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Matrix Allocator\Cuda\Host">
+      <UniqueIdentifier>{d7c4f33f-1b61-4486-923b-cd00a93cf7a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Matrix Allocator\Eigen">
+      <UniqueIdentifier>{1407d53e-63de-4415-b808-2e8125a39a7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Matrix\Cuda\zed_mat_kernel">
+      <UniqueIdentifier>{8a01afa7-136b-453b-8793-2d1e89654b29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

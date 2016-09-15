@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="e8bee44e-1c3d-4b22-9bd1-3f7b718552ad" kpf_version="4" name="convert_to_mnist.kpf">
+<preference-set idref="e8bee44e-1c3d-4b22-9bd1-3f7b718552ad">
+  <boolean id="import_live">1</boolean>
+</preference-set>
+<preference-set idref="e8bee44e-1c3d-4b22-9bd1-3f7b718552ad/convert_to_mnist.py">
+<preference-set id="Invocations">
+<preference-set id="default">
+  <string id="cookieparams"></string>
+  <string id="cwd"></string>
+  <string id="documentRoot"></string>
+  <string id="executable-params"></string>
+  <string relative="path" id="filename">convert_to_mnist.py</string>
+  <string id="getparams"></string>
+  <string id="language">Python</string>
+  <string id="mpostparams"></string>
+  <string id="params"></string>
+  <string id="postparams"></string>
+  <string id="posttype">application/x-www-form-urlencoded</string>
+  <string id="request-method">GET</string>
+  <boolean id="show-dialog">1</boolean>
+  <boolean id="sim-cgi">0</boolean>
+  <boolean id="use-console">0</boolean>
+  <string id="userCGIEnvironment"></string>
+  <string id="userEnvironment"></string>
+</preference-set>
+</preference-set>
+  <string id="lastInvocation">default</string>
+</preference-set>
+<preference-set idref="e8bee44e-1c3d-4b22-9bd1-3f7b718552ad/zedusBoxEditor.py">
+<preference-set id="Invocations">
+<preference-set id="default">
+  <string id="cookieparams"></string>
+  <string id="cwd"></string>
+  <string id="documentRoot"></string>
+  <string id="executable-params"></string>
+  <string relative="path" id="filename">zedusBoxEditor.py</string>
+  <string id="getparams"></string>
+  <string id="language">Python</string>
+  <string id="mpostparams"></string>
+  <string id="params">"C:/OCR/test/" "True"</string>
+  <string id="postparams"></string>
+  <string id="posttype">application/x-www-form-urlencoded</string>
+  <string id="request-method">GET</string>
+  <boolean id="show-dialog">1</boolean>
+  <boolean id="sim-cgi">0</boolean>
+  <boolean id="use-console">0</boolean>
+  <string id="userCGIEnvironment"></string>
+  <string id="userEnvironment"></string>
+</preference-set>
+</preference-set>
+  <string id="lastInvocation">default</string>
+</preference-set>
+<preference-set idref="e8bee44e-1c3d-4b22-9bd1-3f7b718552ad/zedusBoxes.py">
+<preference-set id="Invocations">
+<preference-set id="default">
+  <string id="cookieparams"></string>
+  <string id="cwd"></string>
+  <string id="documentRoot"></string>
+  <string id="executable-params"></string>
+  <string relative="path" id="filename">zedusBoxes.py</string>
+  <string id="getparams"></string>
+  <string id="language">Python</string>
+  <string id="mpostparams"></string>
+  <string id="params"></string>
+  <string id="postparams"></string>
+  <string id="posttype">application/x-www-form-urlencoded</string>
+  <string id="request-method">GET</string>
+  <boolean id="show-dialog">1</boolean>
+  <boolean id="sim-cgi">0</boolean>
+  <boolean id="use-console">0</boolean>
+  <string id="userCGIEnvironment"></string>
+  <string id="userEnvironment"></string>
+</preference-set>
+</preference-set>
+  <string id="lastInvocation">default</string>
+</preference-set>
+<preference-set idref="e8bee44e-1c3d-4b22-9bd1-3f7b718552ad/zedusConvertToMnist.py">
+<preference-set id="Invocations">
+<preference-set id="default">
+  <string id="cookieparams"></string>
+  <string id="cwd"></string>
+  <string id="documentRoot"></string>
+  <string id="executable-params"></string>
+  <string relative="path" id="filename">zedusConvertToMnist.py</string>
+  <string id="getparams"></string>
+  <string id="language">Python</string>
+  <string id="mpostparams"></string>
+  <string id="params">"C:\OCR\test" "" "" False</string>
+  <string id="postparams"></string>
+  <string id="posttype">application/x-www-form-urlencoded</string>
+  <string id="request-method">GET</string>
+  <boolean id="show-dialog">1</boolean>
+  <boolean id="sim-cgi">0</boolean>
+  <boolean id="use-console">0</boolean>
+  <string id="userCGIEnvironment"></string>
+  <string id="userEnvironment"></string>
+</preference-set>
+</preference-set>
+  <string id="lastInvocation">default</string>
+</preference-set>
+<preference-set idref="e8bee44e-1c3d-4b22-9bd1-3f7b718552ad/zedusFindChars.py">
+<preference-set id="Invocations">
+<preference-set id="default">
+  <string id="cookieparams"></string>
+  <string id="cwd"></string>
+  <string id="documentRoot"></string>
+  <string id="executable-params"></string>
+  <string relative="path" id="filename">zedusFindChars.py</string>
+  <string id="getparams"></string>
+  <string id="language">Python</string>
+  <string id="mpostparams"></string>
+  <string id="params">"C:/OCR/test/"</string>
+  <string id="postparams"></string>
+  <string id="posttype">application/x-www-form-urlencoded</string>
+  <string id="request-method">GET</string>
+  <boolean id="show-dialog">1</boolean>
+  <boolean id="sim-cgi">0</boolean>
+  <boolean id="use-console">0</boolean>
+  <string id="userCGIEnvironment"></string>
+  <string id="userEnvironment"></string>
+</preference-set>
+</preference-set>
+  <string id="lastInvocation">default</string>
+</preference-set>
+<preference-set idref="e8bee44e-1c3d-4b22-9bd1-3f7b718552ad/zedusOCR.py">
+<preference-set id="Invocations">
+<preference-set id="default">
+  <string id="cookieparams"></string>
+  <string id="cwd"></string>
+  <string id="documentRoot"></string>
+  <string id="executable-params"></string>
+  <string relative="path" id="filename">zedusOCR.py</string>
+  <string id="getparams"></string>
+  <string id="language">Python</string>
+  <string id="mpostparams"></string>
+  <string id="params">"C:\OCR\test"</string>
+  <string id="postparams"></string>
+  <string id="posttype">application/x-www-form-urlencoded</string>
+  <string id="request-method">GET</string>
+  <boolean id="show-dialog">1</boolean>
+  <boolean id="sim-cgi">0</boolean>
+  <boolean id="use-console">0</boolean>
+  <string id="userCGIEnvironment"></string>
+  <string id="userEnvironment"></string>
+</preference-set>
+</preference-set>
+  <string id="lastInvocation">default</string>
+</preference-set>
+<preference-set idref="e8bee44e-1c3d-4b22-9bd1-3f7b718552ad/zedusSplitWordChars.py">
+<preference-set id="Invocations">
+<preference-set id="default">
+  <string id="cookieparams"></string>
+  <string id="cwd"></string>
+  <string id="documentRoot"></string>
+  <string id="executable-params"></string>
+  <string relative="path" id="filename">zedusSplitWordChars.py</string>
+  <string id="getparams"></string>
+  <string id="language">Python</string>
+  <string id="mpostparams"></string>
+  <string id="params"></string>
+  <string id="postparams"></string>
+  <string id="posttype">application/x-www-form-urlencoded</string>
+  <string id="request-method">GET</string>
+  <boolean id="show-dialog">1</boolean>
+  <boolean id="sim-cgi">0</boolean>
+  <boolean id="use-console">0</boolean>
+  <string id="userCGIEnvironment"></string>
+  <string id="userEnvironment"></string>
+</preference-set>
+</preference-set>
+  <string id="lastInvocation">default</string>
+</preference-set>
+</project>

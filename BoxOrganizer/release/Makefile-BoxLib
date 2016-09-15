@@ -1,0 +1,32 @@
+
+CC=g++
+#CFLAGS=-c -Wall -I
+CFLAGS=-I -c -Wall 
+
+OBJECTS = Defines.o Box.o Boxes.o BoxTree.o
+
+VPATH = ../BoxLib/
+
+#this is how you define a pattern
+%.o : %.cpp
+	$(CC) -O3 -c $< -o $@
+
+%.o : %.c
+	$(CC) -O3 -c $< -o $@
+
+all: BoxLib
+
+BoxLib: $(OBJECTS)
+	ar rcs libBoxLib.a $(OBJECTS)
+
+Defines.o: Defines.cpp 
+
+Box.o: Box.cpp 
+
+Boxes.o: Boxes.cpp Box.o
+
+BoxTree.o: BoxTree.cpp Box.o Boxes.o
+
+clean:
+	rm -rf *o libBoxLib.a
+

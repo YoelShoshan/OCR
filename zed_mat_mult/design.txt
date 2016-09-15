@@ -1,0 +1,39 @@
+
+
+The goal is to create a class for algebra matrix operations with the following features:
+
+* Easy switching between CPU/GPU implementations (GPU by Cuda)
+* Pool of GPU/CPU resources to minimize resources allocation
+* Lock based
+
+
+The goal is to allow usage that looks like this
+
+
+//algebric operations
+zedMat a(1024,1024) = (b*(c*2.45)) + (d);
+
+//data read/write
+1. zedMat a(1024,1024,pData);
+2. zedMat a(1024,1024);
+void* data = a.lock(ZED_READ);  //TODO: is it possible to notice if someone tries to write in such lock?
+((double*)data)[23] = 3.2434;
+a.unlock();
+...
+
+
+
+//pool
+(type a) -> [ , , , , , ]
+(type b) -> [ , , , ]
+(1024x768,double,Cuda) -> [ , , ,]
+
+for now:
+std::map of (key=[width,height] , data=pointer to std::vector)
+
+
+
+
+
+
+

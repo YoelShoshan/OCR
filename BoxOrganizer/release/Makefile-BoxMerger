@@ -1,0 +1,27 @@
+
+CC=g++
+#CFLAGS=-c -Wall -I
+CFLAGS=-I -c -Wall 
+
+OBJECTS = BoxMerger.o
+
+VPATH = ../BoxMerger/
+
+#this is how you define a pattern
+%.o : %.cpp
+	$(CC) -O3 -c $< -o $@
+
+%.o : %.c
+	$(CC) -O3 -c $< -o $@
+
+all: BoxMerger
+
+BoxMerger: $(OBJECTS) libBoxLib.a
+	$(CC) -O3 -o BoxMerger $(OBJECTS) -L. -lBoxLib 
+	#ar rcs libBoxLib.a $(OBJECTS)
+
+BoxMerger.o: BoxMerger.cpp 
+
+clean:
+	rm -rf *o BoxMerger
+

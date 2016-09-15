@@ -1,0 +1,37 @@
+
+*  Try alternative input/outputs
+    * create one big database to allow random selection from imageS
+	* try providing a bigger kenrel as input
+	* provide color as well?
+	* provide depth as well?
+
+Check what should i do with the other color components - for example, use the high res UV values and see how it looks like
+
+* Check why there are identical parts in the NN files !!!
+
+* weight update - consider sign alone / momentum / alternative methods (hassin/newton based)
+ Other weight update methods:
+ - momentom
+ - update speed per weight
+ - consider looking at second dervivate
+ - consider only the sign of the dervivate
+  
+ * Change the progress method - consider ALTERNATIVE METHODS - like 
+* Consider moving to Matlab/Python/CUDA 
+
+* Visualize learning curve
+
+* Visualize Neurons weights matrix
+
+* Visual tool to play with developed NN
+
+
+////////////////////////////
+// Optimization
+////////////////////////////
+
+Parallelism - GPU
+
+    Different mini-batch test cases
+    Inside a test case, different neurons inside a layer
+

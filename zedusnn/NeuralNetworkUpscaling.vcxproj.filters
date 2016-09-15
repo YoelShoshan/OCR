@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\NeuralNetwork">
+      <UniqueIdentifier>{3039516a-beb4-4a88-a69a-eb16147c31ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NeuralNetwork\Trainer">
+      <UniqueIdentifier>{e75d2403-d304-4074-9878-e1835bd24ff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Defines">
+      <UniqueIdentifier>{1e1a4bdf-a2aa-4b2f-9e08-7c582506e1ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NeuralNetwork\TrainingSet">
+      <UniqueIdentifier>{7ffe86a6-83c2-4092-a430-b0dd72c2e13b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NeuralNetwork\NeuralNetwork">
+      <UniqueIdentifier>{c2049cb7-9a72-405b-8c17-b1cd27adf030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NeuralNetwork\Trainer\BackProp">
+      <UniqueIdentifier>{4ddb9e65-e1ac-4253-8866-4dfc00c0c68e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NeuralNetwork\TrainingSet\BMP">
+      <UniqueIdentifier>{3cddcd80-bfe5-47ce-b612-bc8ac4ee02b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NeuralNetwork\Executer">
+      <UniqueIdentifier>{f5d8fdbe-3c0e-46d5-bb0e-cd83ae342fbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OS">
+      <UniqueIdentifier>{38a409e5-6715-48ee-b36b-7c58120836e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Source Files\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Training_Set.h">
+      <Filter>Source Files\NeuralNetwork\TrainingSet</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralNetwork.h">
+      <Filter>Source Files\NeuralNetwork\NeuralNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Trainer_BackProp.h">
+      <Filter>Source Files\NeuralNetwork\Trainer\BackProp</Filter>
+    </ClInclude>
+    <ClInclude Include="bmp.h">
+      <Filter>Source Files\NeuralNetwork\TrainingSet\BMP</Filter>
+    </ClInclude>
+    <ClInclude Include="NN_Executer.h">
+      <Filter>Source Files\NeuralNetwork\Executer</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralNetworkUpscaling.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zedusOS.h">
+      <Filter>Source Files\OS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuralNetworkUpscaling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Training_Set.cpp">
+      <Filter>Source Files\NeuralNetwork\TrainingSet</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuralNetwork.cpp">
+      <Filter>Source Files\NeuralNetwork\NeuralNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Trainer_BackProp.cpp">
+      <Filter>Source Files\NeuralNetwork\Trainer\BackProp</Filter>
+    </ClCompile>
+    <ClCompile Include="bmp.cpp">
+      <Filter>Source Files\NeuralNetwork\TrainingSet\BMP</Filter>
+    </ClCompile>
+    <ClCompile Include="NN_Executer.cpp">
+      <Filter>Source Files\NeuralNetwork\Executer</Filter>
+    </ClCompile>
+    <ClCompile Include="zedusOS.cpp">
+      <Filter>Source Files\OS</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
